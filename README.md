@@ -67,6 +67,9 @@ pip install dj-static
 ## Create a requirements-dev.txt
 pip freeze > requirements-dev.txt
 
+## For Ubuntu 18.04 
+pip freeze | grep -v "pkg-resources" > requirements.txt
+
 ## Create a file requirements.txt file and include reference to previows file and add two more requirements
 * -r requirements-dev.txt
 * gunicorn
