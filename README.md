@@ -68,7 +68,7 @@ pip install dj-static
 pip freeze > requirements-dev.txt
 
 ## Ubuntu 18.x 
-pip freeze | grep -v "pkg-resources" > requirements.txt
+pip freeze | grep -v "pkg-resources" > requirements-dev.txt
 
 ## Create a file requirements.txt file and include reference to previows file and add two more requirements
 * -r requirements-dev.txt
